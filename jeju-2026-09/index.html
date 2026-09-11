@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>제주 성지순례 3박 4일</title>
+<meta name="description" content="성인 7명, 부모님 동반 기준으로 짠 제주 천주교 성지순례 3박 4일 일정 (2026.09.17~09.20)">
+<meta property="og:title" content="제주 성지순례 3박 4일">
+<meta property="og:description" content="성인 7명, 부모님 동반 기준으로 짠 제주 천주교 성지순례 3박 4일 일정 (2026.09.17~09.20)">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&display=swap">
+<style>
+  html{color-scheme:light dark}
+  body{margin:0}
+  img{max-width:100%}
+  [hidden]{display:none!important}
+</style>
+</head>
+<body>
+<style>
+:root{
+  --bg:#EEF0EC; --surface:#FBFCFA; --surface-2:#F4F6F2;
+  --ink:#171B18; --ink-2:#3E4741; --muted:#68736C;
+  --line:#D4DAD2; --line-soft:#E3E7E0;
+  --accent:#12605A; --accent-soft:#DBEBE8;
+  --holy:#59457F;  --holy-soft:#E8E3F2;
+  --meal:#8A4712;  --meal-soft:#F7E9DB;
+  --warn:#9B3535;  --warn-soft:#F8E4E1;
+  --gold:#8C6516;  --gold-soft:#FAEFD3;
+  --serif:"Gowun Batang","Nanum Myeongjo","Apple SD Gothic Neo",serif;
+  --sans:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0D110F; --surface:#151B18; --surface-2:#1C2320;
+    --ink:#E7EBE7; --ink-2:#C3CCC6; --muted:#8E9A93;
+    --line:#28312C; --line-soft:#1F2723;
+    --accent:#5FC7BE; --accent-soft:#11312E;
+    --holy:#AFA0D8;  --holy-soft:#241E36;
+    --meal:#DFA163;  --meal-soft:#2E2216;
+    --warn:#E08C86;  --warn-soft:#33211F;
+    --gold:#DCBA6A;  --gold-soft:#302713;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0D110F; --surface:#151B18; --surface-2:#1C2320;
+  --ink:#E7EBE7; --ink-2:#C3CCC6; --muted:#8E9A93;
+  --line:#28312C; --line-soft:#1F2723;
+  --accent:#5FC7BE; --accent-soft:#11312E;
+  --holy:#AFA0D8;  --holy-soft:#241E36;
+  --meal:#DFA163;  --meal-soft:#2E2216;
+  --warn:#E08C86;  --warn-soft:#33211F;
+  --gold:#DCBA6A;  --gold-soft:#302713;
+}
+*{box-sizing:border-box}
+body{background:var(--bg); color:var(--ink); font-family:var(--sans);
+  font-size:15px; line-height:1.62; -webkit-font-smoothing:antialiased}
+.wrap{max-width:960px; margin:0 auto; padding:0 20px 96px}
+a{color:inherit}
+h1,h2,h3{margin:0; text-wrap:balance}
+
+/* masthead */
+.masthead{padding:44px 0 26px; border-bottom:1px solid var(--line)}
+.eyebrow{font-size:11.5px; letter-spacing:.22em; text-transform:uppercase;
+  color:var(--holy); font-weight:600; margin-bottom:14px}
+h1{font-family:var(--serif); font-weight:700; font-size:clamp(30px,5.6vw,46px); line-height:1.14}
+.sub{margin-top:12px; color:var(--muted); font-size:14.5px; max-width:62ch}
+.facts{display:grid; grid-template-columns:repeat(auto-fit,minmax(176px,1fr));
+  gap:1px; background:var(--line-soft); border:1px solid var(--line-soft);
+  margin-top:26px; border-radius:3px; overflow:hidden}
+.fact{background:var(--surface); padding:13px 15px}
+.fact dt{font-size:11px; letter-spacing:.13em; text-transform:uppercase; color:var(--muted); font-weight:600}
+.fact dd{margin:4px 0 0; font-size:14.5px; font-weight:500; font-variant-numeric:tabular-nums}
+.fact dd small{display:block; font-weight:400; font-size:12.5px; color:var(--muted); margin-top:2px}
+
+.section{padding-top:44px}
+.section-head{display:flex; align-items:baseline; gap:12px; margin-bottom:16px; flex-wrap:wrap}
+.section-head h2{font-family:var(--serif); font-size:22px; font-weight:700}
+.section-head .note{font-size:12.5px; color:var(--muted)}
+
+.scroller{overflow-x:auto; border:1px solid var(--line-soft); border-radius:3px; background:var(--surface)}
+table{border-collapse:collapse; width:100%; min-width:540px; font-size:13.5px}
+th,td{text-align:left; padding:9px 14px; border-bottom:1px solid var(--line-soft); vertical-align:top}
+th{font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted);
+  font-weight:600; background:var(--surface-2); white-space:nowrap}
+tbody tr:last-child td{border-bottom:0}
+td.num{font-variant-numeric:tabular-nums; font-weight:600; white-space:nowrap}
+td.nw{white-space:nowrap}
+
+/* legend */
+.legend{display:flex; flex-wrap:wrap; gap:16px; margin-top:14px; font-size:12.5px; color:var(--muted)}
+.legend span{display:inline-flex; align-items:center; gap:6px}
+/* ⚠ 이 규칙은 반드시 .legend 안으로 한정할 것.
+   본문 강조 항목이 li.key 를 쓰므로, 전역 .key 로 두면 문장이 9px 상자로 찌그러진다. */
+.legend .key{display:inline-block; width:9px; height:9px; border-radius:50%; flex:0 0 auto}
+.legend .k-holy{background:var(--holy)} .legend .k-meal{background:var(--meal)}
+.legend .k-spot{background:var(--accent)}
+.legend .k-move{background:var(--line); width:5px; height:5px}
+
+/* day nav */
+.daynav{position:sticky; top:0; z-index:20; background:var(--bg);
+  border-bottom:1px solid var(--line); margin-top:40px;
+  display:flex; gap:6px; padding:9px 0; overflow-x:auto}
+.daynav a{flex:0 0 auto; text-decoration:none; font-size:13px; font-weight:500;
+  padding:5px 12px; border-radius:999px; border:1px solid var(--line);
+  color:var(--ink-2); background:var(--surface); white-space:nowrap}
+.daynav a:hover{border-color:var(--accent); color:var(--accent)}
+.daynav a:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+/* day */
+.day{padding-top:40px; scroll-margin-top:58px}
+.day-head{border-top:2px solid var(--ink); padding-top:12px}
+.day-num{font-size:11.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--holy); font-weight:600}
+.day-head h2{font-family:var(--serif); font-size:26px; font-weight:700; margin-top:3px}
+.day-head p{margin:6px 0 0; color:var(--muted); font-size:14px; max-width:64ch}
+
+/* 레일: 세로선과 점을 모두 .item 기준으로 배치해 서로 어긋나지 않게 한다.
+   컬럼 64px + gap 18px → 선은 갭 한가운데(73px), 점은 그 선 위에 중심을 맞춘다. */
+.rail{margin-top:20px}
+.item{display:grid; grid-template-columns:64px 1fr; gap:0 18px; position:relative}
+.item::before{content:""; position:absolute; left:73px; top:0; bottom:0; width:1px; background:var(--line)}
+.item:last-child::before{bottom:auto; height:20px}
+.item::after{content:""; position:absolute; left:67px; top:18px; width:9px; height:9px;
+  border-radius:50%; background:var(--surface); border:2px solid var(--line);
+  box-sizing:content-box; z-index:1}
+.time{font-variant-numeric:tabular-nums; font-size:14px; font-weight:600;
+  padding-top:11px; text-align:right; color:var(--ink-2)}
+.body{padding:11px 0 18px; min-width:0}
+.item.holy::after{background:var(--holy); border-color:var(--holy)}
+.item.meal::after{background:var(--meal); border-color:var(--meal)}
+.item.spot::after{background:var(--accent); border-color:var(--accent)}
+.item.flag::after{background:var(--warn); border-color:var(--warn)}
+.item.move::after{width:5px; height:5px; left:70px; top:20px; background:var(--line); border:0}
+
+.h{display:flex; align-items:baseline; gap:9px; flex-wrap:wrap}
+.h .t{font-size:16px; font-weight:600}
+.item.move .h .t{font-size:14.5px; font-weight:400; color:var(--muted)}
+.chip{font-size:10.5px; font-weight:700; letter-spacing:.09em; text-transform:uppercase;
+  padding:2px 7px; border-radius:3px; border:1px solid var(--line);
+  color:var(--muted); background:var(--surface); white-space:nowrap}
+.chip.a{color:var(--accent); border-color:var(--accent); background:var(--accent-soft)}
+.chip.b{color:var(--meal); border-color:var(--meal); background:var(--meal-soft)}
+.dur{font-size:12.5px; color:var(--muted); font-variant-numeric:tabular-nums}
+.place{margin-top:3px; font-size:13.5px; color:var(--muted)}
+.place a{color:var(--accent); text-decoration:none; border-bottom:1px solid transparent}
+.place a:hover{border-bottom-color:currentColor}
+.place a:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+.notes{margin:8px 0 0; padding:0; list-style:none; display:flex; flex-direction:column; gap:3px}
+.notes li{font-size:13.5px; color:var(--ink-2); padding-left:14px; position:relative; line-height:1.55}
+.notes li::before{content:"·"; position:absolute; left:4px; color:var(--muted)}
+.notes li.key{color:var(--ink); font-weight:500}
+.notes li.key::before{content:"◆"; font-size:8px; top:1px; color:var(--accent)}
+.notes li.risk{color:var(--warn)}
+.notes li.risk::before{content:"!"; font-weight:700; font-size:11px; color:var(--warn)}
+
+/* birthday emphasis — 음수 마진을 쓰지 않아 레일 선과 겹치지 않는다 */
+.item.cake .body{background:var(--gold-soft); padding:11px 14px 14px;
+  border-radius:3px; border:1px solid var(--gold); margin-bottom:18px}
+.item.cake::after{background:var(--gold); border-color:var(--gold)}
+.item.cake .h .t{color:var(--gold)}
+
+/* checklist */
+.check{border:1px solid var(--line); border-radius:3px; background:var(--surface); overflow:hidden}
+.check-row{display:flex; gap:12px; align-items:flex-start; padding:11px 15px; border-bottom:1px solid var(--line-soft)}
+.check-row:last-child{border-bottom:0}
+.check-row input[type=checkbox]{margin:4px 0 0; width:16px; height:16px; flex:0 0 auto;
+  accent-color:var(--accent); cursor:pointer}
+.check-row input:disabled{cursor:default; opacity:.45}
+.cl-t{font-size:14.5px; font-weight:500; display:block}
+.cl-d{font-size:13px; color:var(--muted); margin-top:2px; display:block}
+.check-row.done .cl-t{text-decoration:line-through; color:var(--muted); font-weight:400}
+.check-status{font-size:12.5px; color:var(--muted); margin-top:9px; display:flex; gap:6px; align-items:center}
+.dot{width:6px; height:6px; border-radius:50%; background:var(--muted); flex:0 0 auto}
+.dot.live{background:var(--accent)}
+
+.cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(248px,1fr)); gap:14px}
+.card{border:1px solid var(--line-soft); border-radius:3px; background:var(--surface); padding:14px 16px}
+.card h3{font-size:15px; font-weight:600}
+.card .meta{font-size:12.5px; color:var(--muted); font-variant-numeric:tabular-nums}
+.card p{margin:7px 0 0; font-size:13.5px; color:var(--ink-2)}
+
+.tips{margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:11px; counter-reset:t}
+.tips li{font-size:14px; color:var(--ink-2); padding-left:26px; position:relative; max-width:76ch}
+.tips li::before{counter-increment:t; content:counter(t,decimal-leading-zero);
+  position:absolute; left:0; top:1px; font-size:11px; font-weight:700; color:var(--holy);
+  font-variant-numeric:tabular-nums}
+
+footer{margin-top:56px; padding-top:18px; border-top:1px solid var(--line);
+  font-size:12.5px; color:var(--muted); max-width:72ch}
+
+@media (max-width:560px){
+  .item{grid-template-columns:48px 1fr; gap:0 18px}
+  .item::before{left:57px}
+  .item::after{left:51px}
+  .item.move::after{left:54px}
+  .h .t{font-size:15px}
+  .time{font-size:13.5px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <div class="eyebrow">2026 · 09.17 목 — 09.20 일 · 3박 4일</div>
+    <h1>제주 성지순례 3박 4일</h1>
+    <p class="sub">성인 7명, 부모님 두 분 동반. 서부·동부 성지를 돌되 많이 걷지 않도록, 그리고 매일 숙소 반경 안에서 하루가 끝나도록 짰습니다. 토요일 저녁은 생일 축하 자리입니다.</p>
+    <dl class="facts">
+      <div class="fact"><dt>숙소</dt><dd>서머셋 제주신화월드<small>47평 · 방 3개 · 취사 가능</small></dd></div>
+      <div class="fact"><dt>차량</dt><dd>카니발 리무진 9인승<small>1대 · A팀 픽업 / A팀 반납</small></dd></div>
+      <div class="fact"><dt>성지</dt><dd>6곳<small>새미은총 · 금악 · 대정 · 용수 · 서귀포 · 성산포</small></dd></div>
+      <div class="fact"><dt>순례 스탬프</dt><dd>이시돌길<small>금악 클라라성당에서</small></dd></div>
+    </dl>
+  </header>
+
+  <section class="section">
+    <div class="section-head"><h2>항공편</h2><span class="note">첨부의 시각을 출발시각으로 해석 · 도착시각 기준이면 전체를 약 1시간 앞당기세요</span></div>
+    <div class="scroller"><table>
+      <thead><tr><th>팀</th><th>일자</th><th>구간</th><th>출발</th><th>도착(예상)</th><th>인원</th></tr></thead>
+      <tbody id="flights"></tbody>
+    </table></div>
+    <div class="legend">
+      <span><i class="key k-holy"></i>성지 · 성당</span>
+      <span><i class="key k-meal"></i>식사</span>
+      <span><i class="key k-spot"></i>코스</span>
+      <span><i class="key k-move"></i>이동 · 체크인</span>
+    </div>
+  </section>
+
+  <nav class="daynav" aria-label="날짜 이동">
+    <a href="#d1">1일차 · 09/17 목</a>
+    <a href="#d2">2일차 · 09/18 금</a>
+    <a href="#d3">3일차 · 09/19 토</a>
+    <a href="#d4">4일차 · 09/20 일</a>
+    <a href="#mass">미사 시간</a>
+    <a href="#check">예약 체크리스트</a>
+  </nav>
+
+  <div id="days"></div>
+
+  <section class="section" id="mass">
+    <div class="section-head"><h2>성지 · 성당 미사 시간</h2><span class="note">주일은 9/20</span></div>
+    <div class="scroller"><table>
+      <thead><tr><th>성지 · 성당</th><th>위치</th><th>주일 미사</th><th>평일 · 토요일</th><th>비고</th></tr></thead>
+      <tbody id="mass-rows"></tbody>
+    </table></div>
+  </section>
+
+  <section class="section" id="check">
+    <div class="section-head"><h2>예약 · 확인 체크리스트</h2><span class="note">7명이라 대부분 사전 예약이 필요합니다</span></div>
+    <div class="check" id="checklist"></div>
+    <div class="check-status"><span class="dot" id="cl-dot"></span><span id="cl-msg">체크 상태를 불러오는 중…</span></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>우천 · 태풍 대비</h2><span class="note">9월은 태풍 영향이 가장 잦은 달</span></div>
+    <div class="cards" id="rain"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>짚어둘 점</h2></div>
+    <ol class="tips" id="tips"></ol>
+  </section>
+
+  <footer>
+    영업시간 · 휴무 · 미사 시간은 다이닝코드, 비짓제주, 한국천주교주교회의 성지안내, 각 시설 공식 안내를 교차 확인한 2026년 9월 기준 정보입니다. 현지 사정으로 바뀔 수 있으니 방문 전 한 번 더 확인하세요. 전화번호를 확정하지 못한 곳은 임의로 적지 않았습니다.
+  </footer>
+</div>
+
+<script>
+(function(){
+  var NM=function(q){return "https://map.naver.com/p/search/"+encodeURIComponent(q);};
+  var esc=function(s){return String(s).replace(/[&<>"]/g,function(c){return ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"})[c];});};
+
+  document.getElementById("flights").innerHTML=[
+    ["A팀","09/17 (목)","김포 → 제주","09:25","10:35","2명"],
+    ["B팀","09/17 (목)","부산 → 제주","15:45","16:45","5명"],
+    ["B팀","09/20 (일)","제주 → 부산","14:05","15:05","5명"],
+    ["A팀","09/20 (일)","제주 → 김포","19:45","20:55","2명"]
+  ].map(function(f){return "<tr><td class='nw'>"+f[0]+"</td><td class='nw'>"+f[1]+"</td><td class='nw'>"+f[2]+"</td><td class='num'>"+f[3]+"</td><td class='num'>"+f[4]+"</td><td class='nw'>"+f[5]+"</td></tr>";}).join("");
+
+  document.getElementById("mass-rows").innerHTML=[
+    ["새미은총의동산 · 삼위일체대성당","한림읍 새미소길 15","—","—","제주교구 공식 성지 · 개방시간 확인 064-796-4181"],
+    ["금악 클라라성당","한림읍 금악북로 320","11:00","월·금 07:00 / 화·수·목 12:00 / 토 07:00·19:00","★ 순례 스탬프 지점 · 미사 없는 시간 상시 개방"],
+    ["대정성지 (정난주 마리아 묘)","대정읍 동일리 12","모슬포성당 11:00","—","평지 묘역 + 십자가의 길 14처"],
+    ["용수성지 (김대건 신부 표착기념관)","한경면 용수1길 108","10:00","월~토 16:00","매일 09:00~18:00 · 단체 순례는 사전신청 대상"],
+    ["서귀포성당","서귀포시 태평로 398","06:30 / 10:30 / 19:30","토 18:00","하논성당길(환희의 길) 기점"],
+    ["성산포 예수성심성당","성산읍 고성오조로 120","09:00 / 11:00 / 19:30","—","※ 3번째 미사 시간은 출처가 엇갈립니다 (19:30 vs 16:00)"]
+  ].map(function(m){return "<tr><td><a href='"+NM(m[0])+"' target='_blank' rel='noopener' style='color:var(--holy);text-decoration:none'>"+esc(m[0])+" ↗</a></td><td>"+esc(m[1])+"</td><td class='num'>"+esc(m[2])+"</td><td>"+esc(m[3])+"</td><td>"+esc(m[4])+"</td></tr>";}).join("");
+
+  var days=[
+  {id:"d1",num:"1일차",title:"09/17 목 · 합류와 정착",
+   lead:"A팀이 오전에 도착해 차를 받고 오후에 B팀을 태웁니다. 첫날은 이동만으로도 피곤하니 석양 보이는 해안 식당에서 저녁 한 끼로 마무리합니다.",
+   items:[
+    {t:"10:35",team:"A",kind:"",title:"제주공항 도착",place:"제주국제공항",notes:["김포 09:25 출발편"]},
+    {t:"11:00",team:"A",kind:"move",title:"렌터카 픽업",place:"공항 렌터카하우스",dur:"30분",notes:["9인승 카니발 리무진 · A팀이 먼저 픽업"]},
+    {t:"11:40",team:"A",kind:"meal",title:"점심 — 앞뱅디식당",place:"제주시 선덕로 32 (연동)",map:"앞뱅디식당",dur:"1시간",
+     notes:["각재기국·멜국·제주육개장 각 11,000 — 도민 비중 높은 향토 국물","평일 07:00~21:00 / 매장 주차장 완비 · 입식",{r:1,v:"정기휴무 미확인 — 064-744-7942 확인"}]},
+    {t:"13:10",team:"A",kind:"spot",title:"해변 드라이브",place:"애월읍 애월해안로 일대",map:"애월해안로",dur:"1시간 30분",
+     notes:["메모에서 '1100고지'가 아닌 '해변 드라이브'에 동그라미가 있어 그쪽으로 잡았습니다","차에서 내리지 않아도 되는 구간"]},
+    {t:"15:00",team:"A",kind:"",title:"카페 휴식 · 공항 복귀 대기",place:"애월~외도 해안",dur:"1시간 20분",notes:["B팀 도착 대기. 짐은 차에 그대로"]},
+    {t:"16:45",team:"B",kind:"flag",title:"B팀 도착 · 전원 합류",place:"제주공항 국내선 도착층",notes:["부산 15:45 출발편"]},
+    {t:"17:00",team:"전원",kind:"move",title:"숙소로 이동 (평화로)",place:"공항 → 서머셋 제주신화월드",dur:"50분",notes:["목요일 저녁이라 평화로 정체 적음"]},
+    {t:"17:50",team:"전원",kind:"move",title:"체크인 · 짐 정리",place:"서머셋 제주신화월드",map:"서머셋 제주신화월드",dur:"20분",notes:["짐만 풀고 바로 저녁 — 부모님 이동 피로 고려"]},
+    {t:"18:25",team:"전원",kind:"meal",title:"저녁 — 제주할망밥상 (산방산점)",place:"안덕면 화순해안로 89",map:"제주할망밥상 산방산점",dur:"1시간 20분",
+     notes:[{k:1,v:"화순 해안이라 석양을 보며 먹습니다 — 메모의 '석양'을 여기에 맞췄습니다"},"할망밥상정식 18,000 · 생물갈치조림 18,000","09:00~20:00 (LO 19:30) 연중무휴 / 대형주차 50대 · 입식 · 단체예약 가능"]},
+    {t:"20:00",team:"전원",kind:"spot",title:"신화월드 둘러보기 · 산책",place:"제주신화월드 신화스퀘어",dur:"30분",
+     notes:["전 구간 평지",{r:1,v:"원더라이트 불꽃놀이는 금·토에만 합니다 — 목요일인 오늘은 없습니다"}]}
+   ]},
+  {id:"d2",num:"2일차",title:"09/18 금 · 서부 성지순례",
+   lead:"금악에서 시작해 대정·한경을 거쳐 서쪽 끝까지 도는 반시계 방향 코스입니다. 성지 네 곳 중 세 곳이 오늘 들어 있고, 저녁에 숙소로 돌아와 불꽃놀이를 봅니다.",
+   items:[
+    {t:"08:00",team:"전원",kind:"meal",title:"아침 — 창천삼거리식당",place:"안덕면 일주서로 1332 (숙소 7분)",map:"창천삼거리식당",dur:"50분",
+     notes:["갈치조림백반·옥돔구이백반 15,000 / 20년 노포","08:00~19:00 / 일 휴무 → 금요일 영업 / 무료주차",{r:1,v:"좌식입니다 — 입식을 원하시면 산방산초가집(사계리, 08:30 오픈)"}]},
+    {t:"09:00",team:"전원",kind:"move",title:"이동 → 금악리",place:"안덕 → 한림읍 금악리",dur:"30분",notes:[]},
+    {t:"09:30",team:"전원",kind:"holy",title:"새미은총의동산 · 삼위일체대성당",place:"한림읍 새미소길 15",map:"새미은총의동산",dur:"55분",
+     notes:[{k:1,v:"삼위일체대성당은 별도 시설이 아니라 이 동산 안에 있습니다"},"십자가의 길 14처 + 예수님생애공원 + 삼뫼소 호수","부모님은 대성당과 성모상 주변만 짧게 도시는 편이 낫습니다",{r:1,v:"개방시간 확인 064-796-4181"}]},
+    {t:"10:30",team:"전원",kind:"holy",title:"성이시돌목장 · 금악 클라라성당",place:"한림읍 산록남로 53 / 금악북로 320",map:"성이시돌목장",dur:"45분",
+     notes:[{k:1,v:"클라라성당은 이시돌길 순례 스탬프 지점입니다 — 미사 없는 시간 상시 개방"},"목장은 새미은총의동산 바로 옆 · 평지 / 우유부단 카페 유기농 아이스크림"]},
+    {t:"11:20",team:"전원",kind:"move",title:"이동 → 마노르블랑",place:"금악 → 안덕면",dur:"25분",notes:[]},
+    {t:"11:45",team:"전원",kind:"spot",title:"마노르블랑 (정원 카페)",place:"안덕면 일주서로2100번길 46",map:"마노르블랑",dur:"40분",
+     notes:["09:00~19:00 연중무휴 / 입장료 4,000~5,000원 (1인 1음료로 대체 가능)","전용 주차장 · 평지 정원",{r:1,v:"핑크뮬리 절정은 10월 중순입니다 — 9/18에는 아직 안 핍니다"}]},
+    {t:"12:30",team:"전원",kind:"move",title:"이동 → 모슬포",place:"안덕 → 대정읍",dur:"20분",notes:[]},
+    {t:"12:50",team:"전원",kind:"meal",title:"점심 — 덕승식당",place:"대정읍 하모항구로 66",map:"덕승식당 모슬포",dur:"1시간 15분",
+     notes:[{k:1,v:"3대 36년 모슬포 노포 · 블루리본 13년 연속"},"갈치조림 15,000 · 한치물회 18,000 · 우럭매운탕 12,000","10:00~20:40 (BT 15:30~16:30) / 화 휴무 → 금요일 영업","입식 + 좌식룸 2개 · 예약 가능 064-794-0177"]},
+    {t:"14:15",team:"전원",kind:"holy",title:"대정성지 (정난주 마리아 묘)",place:"대정읍 동일리 12",map:"대정성지",dur:"30분",
+     notes:["잔디밭 평지 묘역 + 십자가의 길 14처 — 부모님 부담 없음",{r:1,v:"개방시간 확인 064-794-2074 (모슬포성당)"}]},
+    {t:"14:55",team:"전원",kind:"spot",title:"영락리 방파제 · 노을해안로",place:"대정읍 영락리",map:"영락리 방파제",dur:"25분",
+     notes:["일과리~신도1리 약 12km 노을해안로 구간",{k:1,v:"남방큰돌고래는 오후 3~4시에 목격 확률이 높습니다 — 지금 시간대가 딱 맞습니다"}]},
+    {t:"15:30",team:"전원",kind:"move",title:"이동 → 수월봉",place:"대정 → 한경면 고산리",dur:"15분",notes:[]},
+    {t:"15:45",team:"전원",kind:"spot",title:"수월봉 전망대",place:"한경면 고산리 3760",map:"수월봉",dur:"30분",
+     notes:[{k:1,v:"정상 아래까지 차량이 올라갑니다 — 주차 후 도보 2분. 오름 중 부모님께 가장 부담 없는 곳"},"고산기상대 5층 전망대 개방 / 차귀도·송악산 조망"]},
+    {t:"16:20",team:"전원",kind:"move",title:"이동 → 용수성지",place:"고산 → 한경면 용수리",dur:"12분",notes:[]},
+    {t:"16:35",team:"전원",kind:"holy",title:"용수성지 (김대건 신부 제주표착기념관)",place:"한경면 용수1길 108",map:"용수성지",dur:"45분",
+     notes:["매일 09:00~18:00 — 마감 시간에 여유를 두고 도착","평일 미사 16:00 / 단체 순례는 사전신청 대상이나 7명이면 개별 방문으로 무난 064-772-1252"]},
+    {t:"17:25",team:"전원",kind:"spot",title:"신창풍차해안도로 · 싱계물공원",place:"한경면 한경해안로 485",map:"신창풍차해안도로",dur:"30분",
+     notes:[{k:1,v:"무장애 코스 1.3km · 완만하고 평탄합니다"},"싱계물공원 주차장에 장애인주차 있음",{r:1,v:"만조 때 산책로가 잠깁니다 — 물때 확인"}]},
+    {t:"18:05",team:"전원",kind:"move",title:"이동 → 한림",place:"한경 → 한림읍 동명리",dur:"15분",notes:[]},
+    {t:"18:20",team:"전원",kind:"meal",title:"저녁 — 만민식당",place:"한림읍 중산간서로 4618-1",map:"만민식당 한림",dur:"1시간 5분",
+     notes:["갈치조림 대(4인) 100,000 · 해물탕 대 80,000 · 전복뚝배기 15,000","09:00~21:00 (LO 20:00) / 월 휴무 → 금요일 영업","무료주차 · 입식 · 단체석 / 예약 064-796-4473"]},
+    {t:"19:30",team:"전원",kind:"move",title:"숙소 복귀",place:"한림 → 서머셋 제주신화월드",dur:"30분",notes:["메모의 '19:30~20:00 사이 도착' 목표에 맞췄습니다"]},
+    {t:"20:10",team:"전원",kind:"spot",title:"신화월드 원더라이트 불꽃놀이",place:"신화스퀘어 (테마파크 입구 광장)",dur:"10분",
+     notes:[{k:1,v:"금·토 20:10~20:15, 무료 / 19:00~22:00 상시 라이팅쇼"},{r:1,v:"현행 일정 최종 확인 1666-0060"}]}
+   ]},
+  {id:"d3",num:"3일차",title:"09/19 토 · 서귀포와 동부, 그리고 생일",
+   lead:"이동 거리가 가장 긴 날입니다. 서귀포에서 출발해 남원·조천·표선·구좌·성산을 돌고 다시 서귀포로 돌아옵니다. 차량 이동만 4시간 가까이 되니, 힘드시면 성산포성당이나 보롬왓 중 하나를 빼세요.",
+   items:[
+    {t:"07:00",team:"전원",kind:"move",title:"숙소 출발",place:"서머셋 제주신화월드 → 서귀포",dur:"30분",notes:["오늘은 이른 출발이 필요합니다"]},
+    {t:"07:30",team:"전원",kind:"meal",title:"아침 — 네거리식당",place:"서귀포시 서문로29번길 20",map:"네거리식당 서귀포",dur:"55분",
+     notes:[{k:1,v:"07:00 오픈 · 매일 영업 · 자체 무료주차"},"갈치국 16,000 — 맑은 국물이라 부모님께 부담 없음","좌·입식 혼용이니 입식으로 요청하세요"]},
+    {t:"08:30",team:"전원",kind:"holy",title:"서귀포성당",place:"서귀포시 태평로 398",map:"서귀포성당",dur:"25분",
+     notes:["제주교구 하논성당길(환희의 길) 기점","토요일 미사는 18:00이라 오전엔 참배만"]},
+    {t:"09:00",team:"전원",kind:"move",title:"이동 → 휴애리",place:"서귀포 → 남원읍",dur:"25분",notes:[]},
+    {t:"09:25",team:"전원",kind:"spot",title:"휴애리 자연생활공원",place:"남원읍 신례동로 256",map:"휴애리 자연생활공원",dur:"1시간 5분",
+     notes:["09:00~19:00 (입장마감 17:30) / 성인 13,000 · 경로 9,000 · 20인 이상 단체 9,000",{r:1,v:"핑크뮬리 축제가 9월 중순 개막이라 개화 초기 상태입니다 — 2026년 기간 확인 064-732-2114"}]},
+    {t:"10:35",team:"전원",kind:"move",title:"이동 → 사려니숲길",place:"남원 → 붉은오름 입구",dur:"35분",notes:[]},
+    {t:"11:10",team:"전원",kind:"spot",title:"사려니숲길 — 무장애 나눔길",place:"붉은오름 입구 (화장실 맞은편)",map:"사려니숲길 붉은오름",dur:"50분",
+     notes:[{k:1,v:"오늘의 핵심. 나무데크 1.3km, 교통약자 설계라 부모님께 가장 편한 코스입니다"},"입장료·예약 없음 / 도로변 정식 주차 무료","화장실은 숲에 들어가기 전에 다녀오세요"]},
+    {t:"12:05",team:"전원",kind:"move",title:"이동 → 성읍",place:"사려니 → 표선면 성읍리",dur:"20분",notes:[]},
+    {t:"12:25",team:"전원",kind:"meal",title:"점심 — 이어도식당 (성읍)",place:"표선면 성읍정의현로22번길 14",map:"이어도식당 성읍",dur:"1시간 15분",
+     notes:["불고기정식·옥돔정식 12,000~ / 모듬식사 4인 93,000","입식 · 넓은 매장 · 단체 수용 / 성읍민속마을 주차장",{r:1,v:"영업시간과 휴무를 확정하지 못했습니다 — 전화 확인 후 예약. 불발 시 탐라밥상(남원 위미, 입식, 일 휴무)"}]},
+    {t:"13:45",team:"전원",kind:"spot",title:"보롬왓 + 식물원 카페",place:"표선면 번영로 2350-104",map:"보롬왓",dur:"1시간",
+     notes:[{k:1,v:"식물원 안 카페에서 차와 디저트 — 부모님 쉬어가는 자리로"},"09:00~18:00 연중무휴 / 성인 6,000 · 경로 5,000 · 주차 무료","깡통열차가 있으니 걷기 힘드시면 이용하세요",{r:1,v:"9월 개화 상황은 인스타 @boromwat_ 로 방문 직전 확인"}]},
+    {t:"14:55",team:"전원",kind:"move",title:"이동 → 제주레일바이크",place:"표선 → 구좌읍",dur:"25분",notes:[]},
+    {t:"15:20",team:"전원",kind:"spot",title:"제주레일바이크",place:"구좌읍 용눈이오름로 641",map:"제주레일바이크",dur:"1시간 5분",
+     notes:[{k:1,v:"전기모터 자동주행 — 페달을 밟지 않아도 됩니다. 부모님께 최적"},"완주 약 35분 / 3~10월 09:00~17:30 연중무휴 / 매시 정시·30분 출발","풍우막이 있어 비가 와도 탑니다 / 064-783-0033"]},
+    {t:"16:30",team:"전원",kind:"move",title:"이동 → 성산",place:"구좌 → 성산읍 고성리",dur:"20분",notes:[]},
+    {t:"16:50",team:"전원",kind:"holy",title:"성산포 예수성심성당",place:"성산읍 고성오조로 120",map:"성산포성당",dur:"20분",notes:["토요일이라 미사 없이 참배 / 064-782-0500"]},
+    {t:"17:15",team:"전원",kind:"move",title:"이동 → 서귀포 올레시장",place:"성산 → 서귀포시내",dur:"50분",notes:["오늘 가장 긴 이동 구간"]},
+    {t:"18:05",team:"전원",kind:"meal",title:"서귀포 매일올레시장 · 순대",place:"중앙로42번길 22 (소문난 순대족발)",map:"서귀포 매일올레시장",dur:"30분",
+     notes:["30년 전통 시장 순대 / 공영주차장 최초 30분 무료",{k:1,v:"생일 케이크와 초는 여기 또는 서귀포 시내 베이커리에서 미리 준비하세요"}]},
+    {t:"18:40",team:"전원",kind:"move",title:"이동 → 난드르바당",place:"서귀포시내 → 예래동",dur:"25분",notes:[]},
+    {t:"19:05",team:"전원",kind:"cake",title:"저녁 — 난드르바당 · 생일 축하",place:"서귀포시 하예하동로16번길 11-1",map:"난드르바당",dur:"1시간 30분",
+     notes:[{k:1,v:"오늘의 주인공 자리 — 예약할 때 케이크 반입과 상차림이 되는지 먼저 물어보세요"},"흑돼지 2인 500g 55,000 / 야외테라스 · 전용 무료주차","12:00~22:00 (LO 21:00) / 목 휴무 → 토요일 영업 / 7명 예약 064-739-0053",{r:1,v:"주소 주의 — 대평리가 아니라 예래동(하예동)입니다"}]},
+    {t:"20:40",team:"전원",kind:"move",title:"숙소 복귀",place:"예래동 → 서머셋 제주신화월드",dur:"20분",notes:["21:00 도착. 부모님 컨디션에 따라 올레시장을 빼면 30분 당겨집니다"]}
+   ]},
+  {id:"d4",num:"4일차",title:"09/20 일 · 오설록에서 공항으로",
+   lead:"오설록이 숙소에서 차로 5분이라 마지막 날이 여유롭습니다. 체크아웃하고 바로 들렀다가 공항 방향으로 한 번에 이동합니다. B팀은 14:05, A팀은 19:45 출발입니다.",
+   items:[
+    {t:"07:40",team:"전원",kind:"meal",title:"아침 — 대화해장국",place:"안덕면 사계신항로 2 (숙소 15분)",map:"대화해장국 사계",dur:"50분",
+     notes:["해장국 10,000 · 육개장 10,000 · 소머리곰탕 15,000","06:30~19:00 / 수 휴무 → 일요일 영업 / 내부가 넓어 단체 가능",{r:1,v:"'육개장'이 제주식 고사리육개장인지 전화로 확인해 보세요"}]},
+    {t:"09:20",team:"전원",kind:"move",title:"체크아웃 · 출발",place:"서머셋 제주신화월드",notes:["짐 전부 싣고 출발 — 숙소로 돌아오지 않습니다"]},
+    {t:"09:30",team:"전원",kind:"spot",title:"오설록 티뮤지엄",place:"안덕면 신화역사로 15",map:"오설록 티뮤지엄",dur:"1시간 10분",
+     notes:[{k:1,v:"숙소에서 차 5분. 무료 · 전 구간 평지 · 실내 전시와 티하우스 중심"},"09:00~18:00 연중무휴","주차가 몰리는 곳이지만 오전 이른 시간이라 여유 있습니다"]},
+    {t:"10:45",team:"전원",kind:"move",title:"이동 → 제주시 용담 (평화로)",place:"안덕 → 제주시",dur:"55분",notes:["오설록에서 공항까지 한 번에 이동"]},
+    {t:"11:40",team:"전원",kind:"meal",title:"점심 — 용두암 해녀촌",place:"제주시 용해로 11 (공항 5분)",map:"용두암 해녀촌",dur:"1시간",
+     notes:[{k:1,v:"메모에 적으신 성게미역국 13,000 · 전복뚝배기 15,000이 그대로 있습니다"},"08:00~15:00 연중무휴 / 넓은 무료주차 · 입식 · 단체석 배치 가능 / 064-744-4288"]},
+    {t:"12:55",team:"B",kind:"flag",title:"B팀 공항 드롭 · 수속",place:"제주공항 국내선 출발층",
+     notes:["14:05 출발 대비 1시간 10분 여유 — 일요일 오후 혼잡을 감안하면 적정"]},
+    {t:"14:05",team:"B",kind:"",title:"B팀 부산행 출발",place:"제주 → 부산",notes:["15:05 김해 도착"]},
+    {t:"13:10",team:"A",kind:"spot",title:"A팀 — 노형수퍼마켙",place:"제주시 노형로 89 (공항 10분)",map:"노형수퍼마켙",dur:"1시간 30분",
+     notes:["09:00~19:00 연중무휴 · 성인 15,000",{k:1,v:"경사로와 턱이 없고 장애인주차가 완비된 무장애 시설 — 비가 와도 무관"}]},
+    {t:"15:00",team:"A",kind:"spot",title:"A팀 — 동문시장 또는 카페",place:"제주시 일도일동",map:"제주 동문시장",dur:"1시간 30분",
+     notes:["귤·오메기떡 등 기념품 / 공영주차장 이용"]},
+    {t:"17:00",team:"A",kind:"meal",title:"A팀 이른 저녁",place:"제주시내",dur:"1시간",
+     notes:["삼대국수회관(07:30~02:00 연중무휴 · 지하주차장) 또는 자매국수(09:00~18:00, 주차 60~70대)"]},
+    {t:"18:15",team:"A",kind:"move",title:"렌터카 반납",place:"제주공항 렌터카하우스",dur:"30분",
+     notes:[{k:1,v:"최종 반납 · 주유 후 / 19:45 출발 기준 1시간 30분 전이라 적정"}]},
+    {t:"19:45",team:"A",kind:"",title:"A팀 김포행 출발",place:"제주 → 김포",notes:["20:55 김포 도착"]}
+   ]}
+  ];
+
+  function note(n){
+    if(typeof n==="string") return "<li>"+esc(n)+"</li>";
+    if(n.k) return "<li class='key'>"+esc(n.v)+"</li>";
+    if(n.r) return "<li class='risk'>"+esc(n.v)+"</li>";
+    return "<li>"+esc(n.v)+"</li>";
+  }
+  document.getElementById("days").innerHTML=days.map(function(d){
+    var items=d.items.map(function(i){
+      var cc = i.team==="A" ? "chip a" : (i.team==="B" ? "chip b" : "chip");
+      var pl = i.map ? "<a href='"+NM(i.map)+"' target='_blank' rel='noopener'>"+esc(i.place)+" ↗</a>" : esc(i.place);
+      return "<div class='item "+(i.kind||"")+"'><div class='time'>"+esc(i.t)+"</div><div class='body'>"
+        +"<div class='h'><span class='t'>"+esc(i.title)+"</span><span class='"+cc+"'>"+esc(i.team)+"</span>"
+        +(i.dur?"<span class='dur'>"+esc(i.dur)+"</span>":"")+"</div>"
+        +"<div class='place'>"+pl+"</div>"
+        +(i.notes&&i.notes.length?"<ul class='notes'>"+i.notes.map(note).join("")+"</ul>":"")
+        +"</div></div>";
+    }).join("");
+    return "<section class='day section' id='"+d.id+"'><div class='day-head'><div class='day-num'>"+esc(d.num)
+      +"</div><h2>"+esc(d.title)+"</h2><p>"+esc(d.lead)+"</p></div><div class='rail'>"+items+"</div></section>";
+  }).join("");
+
+  /* 체크리스트 */
+  var CHECKS=[
+    {id:"deokseung",t:"덕승식당 — 7명 예약 · 좌식룸/입식 선택",d:"9/18 점심 · 064-794-0177"},
+    {id:"manmin",t:"만민식당 — 7명 예약 · 갈치조림 대 주문",d:"9/18 저녁 · 064-796-4473"},
+    {id:"eodo",t:"이어도식당(성읍) — 영업시간·휴무 먼저 확인 후 예약",d:"9/19 점심 · 확정 정보 없음 — 가장 먼저 확인"},
+    {id:"nandeureu",t:"난드르바당 — 7명 예약 + 케이크 반입 가능 여부",d:"9/19 저녁 생일 자리 · 064-739-0053"},
+    {id:"halmang",t:"제주할망밥상 산방산점 — 7명 예약",d:"9/17 저녁 · LO 19:30이라 18:30까지 착석 · 0507-1414-3468"},
+    {id:"haenyeo",t:"용두암 해녀촌 — 7명 좌석",d:"9/20 점심 · 064-744-4288"},
+    {id:"saemi",t:"새미은총의동산·삼위일체대성당 — 개방시간·주차",d:"064-796-4181"},
+    {id:"daejeong",t:"대정성지 — 개방시간",d:"064-794-2074 (모슬포성당)"},
+    {id:"huae",t:"휴애리 — 2026년 핑크뮬리 축제 기간·경로 할인",d:"064-732-2114"},
+    {id:"railbike",t:"제주레일바이크 — 토요일 7명 동시 탑승 가능 여부",d:"064-783-0033"},
+    {id:"firework",t:"신화월드 원더라이트 — 금·토 20:10 불꽃놀이 현행 여부",d:"1666-0060"},
+    {id:"stamp",t:"순례 스탬프 수첩 — 수령처·이시돌길 스탬프 지점",d:"제주교구청 064-729-9500 · santoviaggio.com"},
+    {id:"boromwat",t:"보롬왓 개화 현황",d:"인스타 @boromwat_ · 출발 직전"},
+    {id:"apbaengdi",t:"앞뱅디식당 — 정기휴무",d:"9/17 점심 · 064-744-7942"},
+    {id:"cake",t:"생일 케이크·초 준비",d:"9/19 서귀포 시내 또는 올레시장"},
+    {id:"weather",t:"기상 확인 — 태풍·강수",d:"출발 3일 전 · 9월은 태풍 영향이 가장 잦은 달"}
+  ];
+  var listEl=document.getElementById("checklist"), state={};
+  listEl.innerHTML=CHECKS.map(function(c){
+    return "<label class='check-row' data-id='"+c.id+"'><input type='checkbox' disabled data-id='"+c.id+"'>"
+      +"<span><span class='cl-t'>"+esc(c.t)+"</span><span class='cl-d'>"+esc(c.d)+"</span></span></label>";
+  }).join("");
+  function paint(){
+    CHECKS.forEach(function(c){
+      var row=listEl.querySelector("label[data-id='"+c.id+"']");
+      var box=listEl.querySelector("input[data-id='"+c.id+"']");
+      var on=!!state[c.id];
+      if(box.checked!==on) box.checked=on;
+      row.classList.toggle("done",on);
+    });
+  }
+  var dot=document.getElementById("cl-dot"), msg=document.getElementById("cl-msg");
+  var LSKEY="jeju-pilgrimage-2026-09";
+  function count(){return CHECKS.filter(function(c){return state[c.id];}).length;}
+  function bind(save){
+    listEl.querySelectorAll("input").forEach(function(box){
+      box.disabled=false;
+      box.addEventListener("change",function(){
+        var next={}; Object.keys(state).forEach(function(k){next[k]=state[k];});
+        if(box.checked) next[box.dataset.id]=true; else delete next[box.dataset.id];
+        state=next; paint(); save(next);
+      });
+    });
+  }
+  function localMode(){
+    try{ state=JSON.parse(localStorage.getItem(LSKEY)||"{}")||{}; }catch(e){ state={}; }
+    paint();
+    bind(function(next){
+      try{ localStorage.setItem(LSKEY,JSON.stringify(next)); }catch(e){}
+      msg.textContent="이 브라우저에만 저장됩니다 — "+count()+" / "+CHECKS.length+" 완료";
+    });
+    msg.textContent="이 브라우저에만 저장됩니다 — "+count()+" / "+CHECKS.length+" 완료";
+  }
+  if(!window.claude||!window.claude.use){ localMode(); }
+  else{
+    window.claude.use("db").then(function(db){
+      if(!db){ localMode(); return; }
+      var ref=db.doc("trip/pilgrimage-checklist");
+      ref.onSnapshot(function(snap){
+        state=(snap.exists&&snap.data()&&snap.data().done)||{};
+        paint(); dot.classList.add("live");
+        msg.textContent="가족 모두가 함께 보는 체크리스트 — "+count()+" / "+CHECKS.length+" 완료";
+      },function(){
+        msg.textContent="체크 상태를 불러오지 못했습니다. 새로고침해 보세요.";
+        dot.classList.remove("live");
+      });
+      bind(function(next){
+        ref.set({done:next,updatedAt:new Date().toISOString()}).catch(function(){
+          msg.textContent="저장에 실패했습니다. 잠시 후 다시 눌러 주세요.";
+        });
+      });
+    });
+  }
+
+  /* 우천 대비 */
+  document.getElementById("rain").innerHTML=[
+    {n:"제주항공우주박물관",q:"제주항공우주박물관",m:"안덕면 항공우주로 83 · 숙소 5분",p:"성인 10,000 / 경로 8,000 · 09:00~18:00 (입장마감 17:00)",d:"전관 실내에 엘리베이터. 2일차 야외 코스가 무산되면 반나절이 통째로 해결됩니다."},
+    {n:"오설록 티뮤지엄",q:"오설록 티뮤지엄",m:"안덕면 신화역사로 15 · 숙소 5분",p:"무료 · 09:00~18:00 연중무휴",d:"4일차에 이미 들어가 있지만, 비 오는 날 아무 때나 채워 넣기 좋은 카드입니다."},
+    {n:"세계자동차&피아노박물관",q:"세계자동차피아노박물관",m:"안덕면 상창리 · 숙소 10분",p:"요금·운영시간 확인 필요",d:"전관 실내. 숙소에서 가장 가까운 실내 대안 중 하나입니다."},
+    {n:"노형수퍼마켙",q:"노형수퍼마켙",m:"제주시 노형로 89 · 공항 10분",p:"성인 15,000 · 09:00~19:00 연중무휴",d:"경사로와 턱이 없고 장애인주차가 완비된 무장애 시설. 마지막 날 A팀 코스로 이미 넣어 두었습니다."}
+  ].map(function(r){
+    return "<div class='card'><h3><a href='"+NM(r.q)+"' target='_blank' rel='noopener' style='text-decoration:none'>"+esc(r.n)+" ↗</a></h3>"
+      +"<div class='meta'>"+esc(r.m)+"</div><div class='meta'>"+esc(r.p)+"</div><p>"+esc(r.d)+"</p></div>";
+  }).join("");
+
+  /* 짚어둘 점 */
+  document.getElementById("tips").innerHTML=[
+    "핑크뮬리는 9/18~19에 아직 안 핍니다. 개화 시작이 9월 말, 절정은 10월 중순~11월 초입니다. 마노르블랑과 휴애리 모두 다른 볼거리로 가시는 편이 낫습니다.",
+    "메모에 있던 대유랜드는 핑크뮬리 명소가 아니라 ATV·클레이사격·꿩사냥 레저시설(서귀포 상예로 381)입니다. 다른 곳과 혼동하신 것 같아 일정에서 뺐습니다.",
+    "난드르바당은 대평리(난드르)가 아니라 예래동(하예동)에 있습니다. 서귀포 올레시장에서 25분, 숙소에서 20분입니다.",
+    "신화월드 원더라이트 불꽃놀이는 금·토 20:10에만 합니다. 1일차(목)엔 없고 3일차(토)는 동선상 20:10 도착이 불가능해서 2일차(금)에 배치했습니다. 하루만 보시면 됩니다.",
+    "메모의 월령리 선인장군락과 플로웨이브(용암카페)는 넣지 않았습니다. 월령리는 선인장 꽃이 여름에 피고 데크 종점 부근 경사가 12°라 부모님께 부담이며, 플로웨이브는 16:00 오픈에 자체 낙화쇼가 20:00라 신화월드 불꽃과 정면으로 겹칩니다.",
+    "천지연폭포 야간개장(~22:00, 입장마감 21:20, 65세 이상 무료)도 3일차에 넣지 못했습니다. 넣으시려면 올레시장 대신 천지연을 보고, 저녁을 올레시장 근처로 옮기는 편이 동선상 자연스럽습니다.",
+    "성지 순례 스탬프 제도가 있습니다. 이시돌길 스탬프는 금악 클라라성당(성글라라수녀원)에서 받습니다. 수첩 수령처는 제주교구청 064-729-9500으로 문의하세요.",
+    "카니발 9인승에 성인 7명 + 캐리어 7개는 3열 짐칸이 빠듯합니다. 3열 한 자리를 짐칸으로 쓰시는 편이 낫습니다."
+  ].map(function(t){return "<li>"+esc(t)+"</li>";}).join("");
+})();
+</script>
+</body>
+</html>
